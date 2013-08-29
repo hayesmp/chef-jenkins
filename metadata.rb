@@ -7,5 +7,3 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version          "0.5"
 
 %w(runit java iptables).each { |cb| depends cb }
-
-include_recipe "jenkins"
