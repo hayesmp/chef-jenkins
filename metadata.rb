@@ -1,3 +1,4 @@
+name             "jenkins"
 maintainer       "Fletcher Nichol"
 maintainer_email "fnichol@nichol.ca"
 license          "Apache 2.0"
@@ -7,4 +8,4 @@ version          "0.5"
 
 %w(runit java iptables).each { |cb| depends cb }
 
-include_recipe 'jenkins'
+include_recipe "jenkins"
